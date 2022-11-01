@@ -1,0 +1,41 @@
+.row{
+    padding: 20px;
+}
+div{
+    background-color: #90cbf0;
+    text-align: center;
+}
+@media (min-width: 576px) {
+    #fotodeperfil{
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px gray;
+        border : 5px solid;
+        border-color: #0AA1DD;
+    }
+
+.descripcion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+}
+@media (max-width: 575px) {
+    #fotodeperfil{
+        position: absolute;
+        width: 40%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px gray;
+        left: 30%;
+        top: 1000px;
+        border : 5px solid;
+        border-color: #0AA1DD;
+    }
+}
+#nombre{
+    font-weight: bold;
+    margin-top: 30%;
+}
+.div-1{
+    background: #90cbf0;
+}

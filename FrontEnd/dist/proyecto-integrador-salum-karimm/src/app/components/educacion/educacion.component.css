@@ -1,0 +1,13 @@
+.row{
+    text-align: center;
+}
+div{
+    background: #90cbf0;
+}
+h2, h3{
+    display: inline;
+}
+.t-stroke-shadow {
+    color: #2155cd;
+    text-shadow: -3px 3px rgb(234, 243, 248)
+}
